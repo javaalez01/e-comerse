@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple E-Commerce Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>My E-Commerce Store</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#" id="cart-link">Cart (<span id="cart-count">0</span>)</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="product">
+      <img src="product1.jpg" alt="Product Image" class="product-image">
+      <h2>Product 1</h2>
+      <p>Description of the product.</p>
+      <p>Price: $20.00</p>
+      <button class="add-to-cart" data-product="Product 1" data-price="20.00">Add to Cart</button>
+    </section>
+
+    <section class="product">
+      <img src="product2.jpg" alt="Product Image" class="product-image">
+      <h2>Product 2</h2>
+      <p>Description of the product.</p>
+      <p>Price: $30.00</p>
+      <button class="add-to-cart" data-product="Product 2" data-price="30.00">Add to Cart</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 My E-Commerce Store</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
